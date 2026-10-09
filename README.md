@@ -7,7 +7,7 @@
 ![XGBoost](https://img.shields.io/badge/XGBoost-LightGBM-green)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-> **Best model:** Gradient Boosting Regressor · **R² = `92.52`** · **MAE = ₹`13.80`** on a held-out test set
+> **Best model:** Gradient Boosting Regressor · **R² = `92.52`** · **MAE = `13.80`** on a held-out test set
 
 ---
 
