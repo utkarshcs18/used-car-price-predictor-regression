@@ -53,19 +53,15 @@ All models were evaluated on the same held-out test set.
 
 | Model | R² | MAE (₹) | RMSE (₹) |
 |-------|----|---------|----------|
-| Linear Regression | `<..>` | `<..>` | `<..>` |
-| Ridge | `<..>` | `<..>` | `<..>` |
-| Lasso | `<..>` | `<..>` | `<..>` |
-| Random Forest | `<..>` | `<..>` | `<..>` |
-| XGBoost | `<..>` | `<..>` | `<..>` |
-| LightGBM | `<..>` | `<..>` | `<..>` |
-| **Gradient Boosting (tuned)** | **`<..>`** | **`<..>`** | **`<..>`** |
+| Linear Regression | 62.57 | 29.16 | 52.73 |
+| Lasso | -0.2 | 52.97 | 90.20 |
+| Ridge | 66.22 | 29.30 | 52.37 |
+| Random Forest | 92.77 | 14.02 | 24.23 |
+| XGBoost | 91.03 | 16.57 | 26.99 |
 
-**Takeaway:** `<ONE OR TWO SENTENCES, e.g. "Boosting models clearly outperformed linear models, which suggests the relationship between specifications and price is non-linear. Tuning improved R² from 0.XX to 0.XX.">`
+| **Gradient Boosting (tuned)** | **93.38** | **14.40** | **23.18** |
 
-### Predicted vs Actual
-
-![Predicted vs Actual](images/predicted_vs_actual.png)
+**Takeaway:** "Boosting models clearly outperformed others linear models, which suggests the relationship between specifications and price is non-linear. Tuning improved R² from 91.03 to 93.38."
 
 ### What drives the price? (Feature Importance)
 
@@ -93,7 +89,6 @@ used-car-price-predictor-regression/
 │   └── car_price_prediction.ipynb   # Cleaning → features → modeling → evaluation
 ├── models/
 │   └── best_car_price_model.pkl     # Saved trained model
-├── images/                          # Plots used in this README
 ├── predict.py                       # Predict a price from the command line
 ├── requirements.txt
 ├── .gitignore
