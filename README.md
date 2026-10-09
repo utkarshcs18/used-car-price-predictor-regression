@@ -2,10 +2,12 @@
 
 **A regression project: clean real-world used-car listings, engineer features from messy specification columns, compare 7 models, tune the best one, and save it for reuse with a command-line prediction script.**
 
+<p align="center">
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-Regression-orange)
 ![XGBoost](https://img.shields.io/badge/XGBoost-LightGBM-green)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+</p>
 
 > **Best model:** Gradient Boosting Regressor · **R² = `93.38`** · **MAE = ₹`14.40`** on a held-out test set
 
